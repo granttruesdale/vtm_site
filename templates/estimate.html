@@ -1,8 +1,10 @@
-
+{% extends 'base.html' %}
+{% block body %}
 <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="./estimate">Estimate</a>
+    <a href="./">Home</a>
+    <a href="./about">About</a>
+    <a class="active" href="./estimate">Estimate</a>
+    
 </nav>
 <h2> VTM Estimator </h2>
 <hr>
@@ -19,5 +21,8 @@
 	<input type="reset" value="Clear">
 </form>
 <br>	
-Your Painting Estimate is
+{% if quote %}
+Your Painting Estimate is {{quote}}.
+{% endif %}
 <br>
+{% endblock %}
