@@ -18,7 +18,7 @@ Basic structure for starting a Flask project with Jinja templates
 
 6. Install the dependencies ```pip install -r requirements.txt```
 
-7. Make a new repository by running ```git init`` in the folder.
+7. Make a new repository by running ```git init` in the folder.
 
 8. Track all the files in the new local repository ```git add .```
 
