@@ -1,4 +1,38 @@
 body{
-    background-color: rgb(249, 240, 255);
+    background-color: black;
 }
-
+h1 {
+    background-color: darkgrey;
+    color: white;
+    font-size: large;
+}
+nav {
+    background-color: darkgrey;
+}
+div {
+    background-color: darkgrey;
+}
+footer {
+    background-color: darkgrey;
+    color: white;
+}
+a:link, a:visited {
+    background-color: darkgrey;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:focus {
+    background-color: darkgrey;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  figcaption {
+      color: blue;
+      text-decoration: underline;
+  }
