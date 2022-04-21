@@ -10,6 +10,9 @@ nav {
 div {
     background-color: darkgrey;
 }
+p{color: white;
+}
+
 footer {
     background-color: darkgrey;
     color: white;
